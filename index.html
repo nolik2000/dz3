@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anastasia Kostiv</title>
+    <meta charset="utf-8">
+
+    <script>
+        var number = Math.round(Math.random() * (1000 - 100 + 1)) + 100;
+        var shot = prompt("Введіть число від 100 до 1000")
+
+        while (shot != number) {
+        if (shot > number)
+          var shot = prompt('Ваше число більше');
+
+        if(shot < number)
+          var shot = prompt('Ваше число менше');
+
+        if (shot == number) break;
+
+}
+        alert('You are win!')
+        console.log(number);
+    </script>
+
+  </head>
+  <body>
+  </body>
+</html>
